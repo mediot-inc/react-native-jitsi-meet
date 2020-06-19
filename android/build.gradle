@@ -48,7 +48,7 @@ repositories {
 }
 
 dependencies {
-    implementation ('org.jitsi.react:jitsi-meet-sdk:2.9.100') {
+    implementation ('org.jitsi.react:jitsi-meet-sdk:2.9.101') {
       transitive = true
 
       exclude module:'react-native-linear-gradient'
