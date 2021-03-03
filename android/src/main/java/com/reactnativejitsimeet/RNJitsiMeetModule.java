@@ -57,7 +57,7 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                             .setRoom(url)
                             .setAudioOnly(false)
                             .setUserInfo(_userInfo)
-							.setFeatureFlag("resolution", 480)
+							.setFeatureFlag("resolution", 360)
                             .build();
                     mJitsiMeetViewReference.getJitsiMeetView().join(options);
                 }
@@ -91,7 +91,7 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                             .setRoom(url)
                             .setAudioOnly(true)
                             .setUserInfo(_userInfo)
-							.setFeatureFlag("resolution", 480)
+							.setFeatureFlag("resolution", 360)
                             .build();
                     mJitsiMeetViewReference.getJitsiMeetView().join(options);
                 }
